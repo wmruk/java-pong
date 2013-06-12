@@ -1,0 +1,17 @@
+        jButton1.addActionListener((new ActionListener() {
+            public void actionPerformed(ActionEvent event) {
+                Pong.set.setKolorG1(JColorChooser.showDialog(null, "Wybierz kolor", Pong.set.getKolorG1()));
+            }
+        }));
+
+        jButton2.addActionListener((new ActionListener() {
+            public void actionPerformed(ActionEvent event) {
+                Pong.set.setKolorG2(JColorChooser.showDialog(null, "Wybierz kolor", Pong.set.getKolorG2()));
+            }
+        }));
+
+        jButton3.addActionListener((new ActionListener() {
+            public void actionPerformed(ActionEvent event) {
+                Pong.set.setKolorPilka(JColorChooser.showDialog(null, "Wybierz kolor", Pong.set.getKolorPilka()));
+            }
+        }));
